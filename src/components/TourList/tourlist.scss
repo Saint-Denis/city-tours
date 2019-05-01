@@ -1,0 +1,9 @@
+@import '../../index.scss';
+
+.tourlist {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    width: 95vw;
+    padding: 2rem 0;
+    margin: 0 auto;
+}

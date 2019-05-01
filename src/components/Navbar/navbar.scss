@@ -1,10 +1,14 @@
 @import '../../index.scss';
 
 .navbar {
-    display: grid;
-    grid-template-columns: auto 1fr;
-    padding: 0.5rem 1rem;
     background: $mainBlack;
+    &__inner {
+        display: grid;
+        grid-template-columns: auto 1fr;
+        width: 95vw;
+        margin: 0 auto;
+        padding: 0.5rem 0;
+    }
     &__links {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
